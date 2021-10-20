@@ -1,0 +1,9 @@
+.logoContainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo > span{
+    color: #f35b04;
+}

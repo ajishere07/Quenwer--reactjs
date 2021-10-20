@@ -1,0 +1,113 @@
+.postContainer{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width:100%; 
+    background-color:white;
+    margin-top:15px;
+}
+
+.postContainer__nameAndAvatar{
+    display:flex;
+}
+
+.postContainer__question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postContainer__question > .MuiButton-root{
+    padding: 10px 20px;
+    padding: 4px 11px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #272c48;
+    color:white;
+    text-transform: capitalize;
+}
+
+.postContainer__question > .MuiButton-root:hover{
+    border: 1px solid #272c48;
+    color:#272c48;
+    background-color:white;
+}
+
+.postContainer__answers{
+    height: 100%;
+    width: 100%;
+    border: 0.2px solid #f35b04;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.Avatar > .MuiAvatar-root{
+    width:36px;
+    height:36px;
+    cursor:pointer;
+}
+
+.Name{
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.Name span{
+    font-size:13px;
+
+}
+
+.Name p{
+    color:#777779;
+    margin: 0;
+    font-size: 11px;
+}
+
+.postContainer__footer{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icons > .MuiSvgIcon-root{
+    width: 20px;
+    height:20px;
+    color:grey;
+    cursor:pointer;
+}
+
+.votes{
+    flex:1;
+    text-align: center;
+    background-color: #eceded;
+    border-radius:35px;
+    
+}
+
+.votes > .MuiSvgIcon-root{
+    
+    margin-left: 5px;
+    margin-right: 5px
+ 
+}
+
+.votes > .MuiSvgIcon-root:hover{
+    color:blue;
+}
+
+.commentAndShare{
+    flex:9; 
+}
+
+.commentAndShare > .MuiSvgIcon-root{
+    margin-left:20px;
+}
+
+.otherOptions > .MuiSvgIcon-root{
+    
+    margin-right: 10px;
+
+}

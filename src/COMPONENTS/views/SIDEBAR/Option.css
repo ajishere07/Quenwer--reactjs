@@ -1,0 +1,23 @@
+.optionContainer{
+   padding-left: 6px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.optionContainer:hover{
+    background-color: #ccc;
+    cursor: pointer;
+ }
+
+.optionContainer img{
+    
+    margin-right: 9px;
+    width:20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.optionContainer p{
+    font-size: 13px;
+    color:#777779;
+}

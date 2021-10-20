@@ -1,0 +1,44 @@
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*--------------Icons--start------------*/
+.icon{
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.icon:hover{
+    border-radius: 0.4rem;
+    background-color: lightgray;
+    transition: 0.3s;
+}
+.icon > .MuiSvgIcon-root{
+   color: #636466;
+   width: 1.8rem; 
+   height: 1.8rem;
+   border-bottom: 0;  
+}
+
+.icon > .MuiSvgIcon-root:hover{
+    color: #f35b04; 
+    
+ }
+ 
+/*--------------Icons--end------------*/
+
+
+@media all and (max-width: 1015px){
+    .icon > .MuiSvgIcon-root{
+        width: 1.6rem; 
+        height: 1.6rem;
+     }
+     .icon{
+        padding: 4px 8px;
+        cursor: pointer;
+        margin: 0 4px;
+    }
+}
